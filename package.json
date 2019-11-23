@@ -1,0 +1,33 @@
+{
+  "name": "Putie",
+  "version": "1.0.0",
+  "description": "yet another request builder",
+  "main": "src/index.tsxs",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosqsilva/Putie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosqsilva/Putie/issues"
+  },
+  "homepage": "https://github.com/carlosqsilva/Putie#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-emotion": "^10.0.23",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "emotion": "^10.0.23",
+    "preact": "^10.0.5"
+  }
+}
